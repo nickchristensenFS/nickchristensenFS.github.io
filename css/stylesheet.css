@@ -52,7 +52,7 @@ main { margin-top: 100px; }
 
 main .wrap .two .content_section { color: #fff; }
 
-main .wrap .two .content_section .logo { background-image: url("../graphics/logo_white.png"); height: 150px; width: 150px; margin: 0 auto; -webkit-animation-name: example; /* Chrome, Safari, Opera */ -webkit-animation-duration: .75s; /* Chrome, Safari, Opera */ -webkit-animation-name: example; -o-animation-name: example; animation-name: example; -webkit-animation-duration: .75s; -o-animation-duration: .75s; animation-duration: .75s; -webkit-animation-iteration-count: infinite; -o-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+main .wrap .two .content_section .logo { background-image: url("../graphics/logo_white.png"); height: 150px; width: 150px; margin: 0 auto; -webkit-animation-name: example; /* Chrome, Safari, Opera */ -webkit-animation-duration: 1.2s; /* Chrome, Safari, Opera */ -webkit-animation-name: example; -o-animation-name: example; animation-name: example; -webkit-animation-duration: 1.2s; -o-animation-duration: 1.2s; animation-duration: 1.2s; -webkit-animation-iteration-count: infinite; -o-animation-iteration-count: infinite; animation-iteration-count: infinite; }
 
 main .wrap .two .content_section h1 { padding: 10px; }
 
