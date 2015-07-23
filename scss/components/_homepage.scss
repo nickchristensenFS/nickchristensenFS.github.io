@@ -1,0 +1,50 @@
+/* ==================
+	Homepage
+	================== */
+
+	main {
+		margin-top:100px;
+		.wrap {
+			.two {
+				.content_section {
+					color:#fff;
+					.logo {
+						background-image: url('../graphics/logo_white.png');
+						height: 150px;
+    					width: 150px;
+    					margin: 0 auto;
+    					-webkit-animation-name: example; /* Chrome, Safari, Opera */
+						-webkit-animation-duration: .75s; /* Chrome, Safari, Opera */
+						animation-name: example;
+						animation-duration: .75s;
+						animation-iteration-count: infinite;
+					}
+					h1 {
+						padding:10px;
+					}
+					p {
+						padding:10px;
+						line-height: 1.4em;
+					}
+				}
+			}
+		}
+	}
+
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes example {
+		0% {background-image: url('../graphics/logo_white.png');}
+		25% {background-image: url('../graphics/animation/logo_half_gold.png');}
+		50% {background-image: url('../graphics/animation/logo_full_gold.png');}
+		75% {background-image: url('../graphics/animation/logo_half_gold_down.png');}
+		100% {background-image: url('../graphics/logo_white.png');}
+	}
+
+	/* Standard syntax */
+	@keyframes example {
+		0% {background-image: url('../graphics/logo_white.png');}
+		25% {background-image: url('../graphics/animation/logo_half_gold.png');}
+		50% {background-image: url('../graphics/animation/logo_full_gold.png');}
+		75% {background-image: url('../graphics/animation/logo_half_gold_down.png');}
+		100% {background-image: url('../graphics/logo_white.png');}
+	}
