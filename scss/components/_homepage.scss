@@ -1,13 +1,14 @@
 /* ==================
 	Homepage
 	================== */
-body.homepage
+	body.homepage {
 	main {
 		margin-top:100px;
 		.wrap {
 			.two {
 				.content_section {
 					color:#fff;
+					text-align:center;
 					.logo {
 						background-image: url('../graphics/logo_white.png');
 						height: 150px;
@@ -30,6 +31,7 @@ body.homepage
 			}
 		}
 	}
+}
 
 	/* Chrome, Safari, Opera */
 	@-webkit-keyframes example {

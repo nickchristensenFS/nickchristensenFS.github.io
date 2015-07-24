@@ -4,35 +4,37 @@
 
 	header {
 		.wrap {
-			.one {
+			.top_section {
 				background: rgba(255, 255, 255, 0.74);
-				.welcome_section {
-					margin: 0 auto;
-					h1.page_header {
-						font-size: 60px;
-					}
+				.main-nav,
+				.main {
+					position: relative; 
+				}
+				.main-nav {
+					background: #fff;
+					height: auto;
+					z-index: 150;
+					margin-bottom: -80px;
+					box-shadow: 0 2px 3px rgba(0,0,0,.4);
+					.content_section {
+						padding:0 10px;
+						@media screen and (max-width: 480px) {
+							text-align:center;
+						}
+						img {
+							width:75px;
+							padding:10px 0px;
+						}
+					}				
 				}
 			}
 		}
 	}
-
-	.main-nav,
-.main {
-  position: relative; 
-}
-.main-nav {
-  background: #fff;
-  height: 80px;
-  z-index: 150;
-  margin-bottom: -80px;
-  box-shadow: 0 2px 3px rgba(0,0,0,.4);
-}
-header,
-.main-nav-scrolled {
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
+	header, .main-nav-scrolled {
+		position: fixed;
+		width: 100%;
+		top: 0;
+	}
 
 
 

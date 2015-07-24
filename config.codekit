@@ -40,6 +40,61 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/graphics\/about\/beef.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83506,
+		"inputAbbreviatedPath": "\/graphics\/about\/beef.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/beef.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/about\/brix.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48390,
+		"inputAbbreviatedPath": "\/graphics\/about\/brix.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/brix.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/about\/flps.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57279,
+		"inputAbbreviatedPath": "\/graphics\/about\/flps.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/flps.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/about\/haymakers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33694,
+		"inputAbbreviatedPath": "\/graphics\/about\/haymakers.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/haymakers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/about\/unl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92731,
+		"inputAbbreviatedPath": "\/graphics\/about\/unl.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/unl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/graphics\/animation\/logo_full_gold.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -84,17 +139,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/graphics\/beef.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12907,
-		"inputAbbreviatedPath": "\/graphics\/beef.jpg",
-		"outputAbbreviatedPath": "\/graphics\/beef.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/graphics\/bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -102,39 +146,6 @@
 		"initialSize": 1002,
 		"inputAbbreviatedPath": "\/graphics\/bg.png",
 		"outputAbbreviatedPath": "\/graphics\/bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/graphics\/brix.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11435,
-		"inputAbbreviatedPath": "\/graphics\/brix.jpg",
-		"outputAbbreviatedPath": "\/graphics\/brix.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/graphics\/flps.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15469,
-		"inputAbbreviatedPath": "\/graphics\/flps.jpg",
-		"outputAbbreviatedPath": "\/graphics\/flps.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/graphics\/haymakers.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15003,
-		"inputAbbreviatedPath": "\/graphics\/haymakers.jpg",
-		"outputAbbreviatedPath": "\/graphics\/haymakers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -157,17 +168,6 @@
 		"initialSize": 8202,
 		"inputAbbreviatedPath": "\/graphics\/logo_white.png",
 		"outputAbbreviatedPath": "\/graphics\/logo_white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/graphics\/unl.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12969,
-		"inputAbbreviatedPath": "\/graphics\/unl.jpg",
-		"outputAbbreviatedPath": "\/graphics\/unl.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

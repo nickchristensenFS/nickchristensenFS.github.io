@@ -32,16 +32,8 @@ p {
 	margin-top: 20px;
 }
 
-.welcome_section, .content_section, .copyright_section {
+.content_section, .copyright_section {
 	padding:50px 20px;
 	max-width:940px;
 	margin: 0 auto;
-}
-
-.content_section {
-	padding:300px 0 400px 0;
-}
-
-#description, #description2, #description3, #description4, #description5 {
-	opacity: 0;
 }

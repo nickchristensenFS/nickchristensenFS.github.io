@@ -27,6 +27,10 @@ function appear5() {
 	x.style.transition = "opacity 4s"; 
 }
 
+/* #description, #description2, #description3, #description4, #description5 {
+	opacity: 0;
+} */
+
 
 //sticky nav//
 
