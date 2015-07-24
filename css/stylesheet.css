@@ -22,6 +22,15 @@ p { margin: 0; margin-top: 20px; }
 
 .content_section, .copyright_section { padding: 50px 20px; max-width: 940px; margin: 0 auto; }
 
+a { text-decoration: none; }
+
+/** LIGHTBOX MARKUP **/
+.lightbox { /** Default lightbox to hidden */ display: none; /** Position and style */ position: fixed; z-index: 999; width: 100%; height: 100%; text-align: center; top: 0; left: 0; background: rgba(0, 0, 0, 0.8); }
+
+.lightbox img { /** Pad the lightbox image */ max-width: 90%; max-height: 80%; margin-top: 2%; }
+
+.lightbox:target { /** Remove default browser outline */ outline: none; /** Unhide lightbox **/ display: block; }
+
 /* ================== Header ================== */
 header .wrap .top_section { background: rgba(255, 255, 255, 0.74); }
 
@@ -67,15 +76,25 @@ body.beta main .wrap .about_section .content_section ul li .collection_item_desc
 
 body.beta main .wrap .about_section .content_section ul li .collection_item_label { display: none; }
 
+body.beta main .wrap .about_section .content_section ul li:hover { opacity: .75; }
+
+body.beta main .wrap .work_section { box-shadow: 0px 0px 15px 1px #000; background-color: #353C44; }
+
 body.beta main .wrap .work_section .content_section { text-align: right; }
 
-body.beta main .wrap .work_section .content_section ul.web { list-style-type: none; }
+body.beta main .wrap .work_section .content_section .row1, body.beta main .wrap .work_section .content_section .row2 { margin-top: 20px; }
 
-body.beta main .wrap .work_section .content_section ul.web li { display: inline-block; }
+body.beta main .wrap .work_section .content_section .row1 a img, body.beta main .wrap .work_section .content_section .row2 a img { width: 150px; }
 
-body.beta main .wrap .work_section .content_section ul.web li ul { list-style-type: none; }
+@media screen and (max-width: 480px) { body.beta main .wrap .work_section .content_section .row1 a img, body.beta main .wrap .work_section .content_section .row2 a img { width: 100px; } }
 
-body.beta main .wrap .work_section .content_section ul.web li ul li img { width: 200px; }
+body.beta main .wrap .work_section .content_section .row1 a img:hover, body.beta main .wrap .work_section .content_section .row2 a img:hover { opacity: .75; }
+
+body.beta main .wrap .work_section .content_section .row1 a.lightbox img, body.beta main .wrap .work_section .content_section .row2 a.lightbox img { width: auto; }
+
+@media screen and (max-width: 480px) { body.beta main .wrap .work_section .content_section .row1 a.lightbox img, body.beta main .wrap .work_section .content_section .row2 a.lightbox img { width: 300px; } }
+
+body.beta main .wrap .work_section .content_section .row1 a.lightbox img:hover, body.beta main .wrap .work_section .content_section .row2 a.lightbox img:hover { opacity: 1.0; }
 
 body.beta main .wrap .connect_section .content_section { text-align: right; }
 

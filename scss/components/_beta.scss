@@ -27,11 +27,11 @@
 									}
 								}
 								.collection_item_description p {
-								    width: 150px;
-								    font-size: 13px;
-								    margin: 0;
-								    display: none;
-								    @media screen and (max-width: 480px) {
+									width: 150px;
+									font-size: 13px;
+									margin: 0;
+									display: none;
+									@media screen and (max-width: 480px) {
 										width:100px;
 									}
 								}
@@ -39,23 +39,39 @@
 									display: none;
 								}
 							}
+							li:hover {
+								opacity: .75;
+							}
 						}
 					}
 				}
 				.work_section {
+					box-shadow: 0px 0px 15px 1px #000;
+					background-color: #353C44;
 					.content_section {
 						text-align: right;
-						ul.web {
-							list-style-type: none;
-							li {
-								display: inline-block;
-								ul {
-									list-style-type: none;
-									li {
-										img {
-											width:200px;
-										}
+						.row1, .row2 {
+							margin-top: 20px;
+							a{
+								img {
+									width:150px;
+									@media screen and (max-width: 480px) {
+										width:100px;
 									}
+								}
+								img:hover {
+									opacity: .75;
+								}
+							}
+							a.lightbox {
+								img {
+									width: auto;
+									@media screen and (max-width: 480px) {
+										width:300px;
+									}
+								}
+								img:hover {
+									opacity: 1.0;
 								}
 							}
 						}

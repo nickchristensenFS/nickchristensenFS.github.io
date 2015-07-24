@@ -22,6 +22,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/css\/lightbox.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/lightbox.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/media.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -238,6 +247,149 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/graphics\/work\/arena.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70684,
+		"inputAbbreviatedPath": "\/graphics\/work\/arena.png",
+		"outputAbbreviatedPath": "\/graphics\/work\/arena.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/arena_c.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41193,
+		"inputAbbreviatedPath": "\/graphics\/work\/arena_c.png",
+		"outputAbbreviatedPath": "\/graphics\/work\/arena_c.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/brix.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31379,
+		"inputAbbreviatedPath": "\/graphics\/work\/brix.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/brix.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/brix_c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152588,
+		"inputAbbreviatedPath": "\/graphics\/work\/brix_c.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/brix_c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/burger.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17776,
+		"inputAbbreviatedPath": "\/graphics\/work\/burger.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/burger.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/defense.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127689,
+		"inputAbbreviatedPath": "\/graphics\/work\/defense.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/defense.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/defense_c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 310066,
+		"inputAbbreviatedPath": "\/graphics\/work\/defense_c.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/defense_c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/dickeys_bbq.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90480,
+		"inputAbbreviatedPath": "\/graphics\/work\/dickeys_bbq.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/dickeys_bbq.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/dickeys_bbq_c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47091,
+		"inputAbbreviatedPath": "\/graphics\/work\/dickeys_bbq_c.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/dickeys_bbq_c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/fish.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23685,
+		"inputAbbreviatedPath": "\/graphics\/work\/fish.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/fish.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/fish_c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69369,
+		"inputAbbreviatedPath": "\/graphics\/work\/fish_c.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/fish_c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/kickreturn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159845,
+		"inputAbbreviatedPath": "\/graphics\/work\/kickreturn.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/kickreturn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/kickreturn_c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74065,
+		"inputAbbreviatedPath": "\/graphics\/work\/kickreturn_c.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/kickreturn_c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/graphics\/work\/patio.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -249,13 +401,79 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/graphics\/work\/tweet_fb.png": {
+	"\/graphics\/work\/patio_c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116118,
+		"inputAbbreviatedPath": "\/graphics\/work\/patio_c.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/patio_c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/seacrest_field_story.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217841,
+		"inputAbbreviatedPath": "\/graphics\/work\/seacrest_field_story.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/seacrest_field_story.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/seacrest_field_story_c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125788,
+		"inputAbbreviatedPath": "\/graphics\/work\/seacrest_field_story_c.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/seacrest_field_story_c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/steak.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47781,
+		"inputAbbreviatedPath": "\/graphics\/work\/steak.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/steak.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/steak_c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 219248,
+		"inputAbbreviatedPath": "\/graphics\/work\/steak_c.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/steak_c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/ticket.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 580661,
-		"inputAbbreviatedPath": "\/graphics\/work\/tweet_fb.png",
-		"outputAbbreviatedPath": "\/graphics\/work\/tweet_fb.png",
+		"initialSize": 434407,
+		"inputAbbreviatedPath": "\/graphics\/work\/ticket.png",
+		"outputAbbreviatedPath": "\/graphics\/work\/ticket.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/ticket_c.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20632,
+		"inputAbbreviatedPath": "\/graphics\/work\/ticket_c.png",
+		"outputAbbreviatedPath": "\/graphics\/work\/ticket_c.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -268,28 +486,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/js\/lightbox-plus-jquery.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/lightbox-plus-jquery.js",
-		"outputAbbreviatedPath": "\/js\/lightbox-plus-jquery.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/lightbox-plus-jquery.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/lightbox-plus-jquery.min.js",
-		"outputAbbreviatedPath": "\/js\/lightbox-plus-jquery.min.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/js\/script.js": {
 		"fileType": 64,
