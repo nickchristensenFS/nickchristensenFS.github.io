@@ -39,9 +39,6 @@
 									display: none;
 								}
 							}
-							li:hover {
-								opacity: .75;
-							}
 						}
 					}
 				}
@@ -78,6 +75,28 @@
 					}
 				}
 				.skills_section {
+					.content_section {
+						ul {
+							margin: 20px 0;
+							padding: 0;
+							list-style-type: none;
+							li {
+							    display: inline-block;
+							    padding: 15px 20px;
+							    background-color: #99963C;
+							    margin:10px 5px;
+							    border-radius: 5px;
+							    box-shadow: 0px 10px 10px -5px #000;
+							    text-shadow: 0px 2px 6px #000;
+							    @media screen and (max-width: 480px) {
+										margin: 0 auto 14px auto;
+									}
+							}
+							li.learning {
+								opacity: .5;
+							}
+						}
+					}
 				}
 				.connect_section {
 					.content_section {

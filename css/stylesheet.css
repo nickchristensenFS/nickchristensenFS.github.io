@@ -76,8 +76,6 @@ body.beta main .wrap .about_section .content_section ul li .collection_item_desc
 
 body.beta main .wrap .about_section .content_section ul li .collection_item_label { display: none; }
 
-body.beta main .wrap .about_section .content_section ul li:hover { opacity: .75; }
-
 body.beta main .wrap .work_section { box-shadow: 0px 0px 15px 1px #000; background-color: #353C44; }
 
 body.beta main .wrap .work_section .content_section { text-align: right; }
@@ -95,6 +93,14 @@ body.beta main .wrap .work_section .content_section .row1 a.lightbox img, body.b
 @media screen and (max-width: 480px) { body.beta main .wrap .work_section .content_section .row1 a.lightbox img, body.beta main .wrap .work_section .content_section .row2 a.lightbox img { width: 300px; } }
 
 body.beta main .wrap .work_section .content_section .row1 a.lightbox img:hover, body.beta main .wrap .work_section .content_section .row2 a.lightbox img:hover { opacity: 1.0; }
+
+body.beta main .wrap .skills_section .content_section ul { margin: 20px 0; padding: 0; list-style-type: none; }
+
+body.beta main .wrap .skills_section .content_section ul li { display: inline-block; padding: 15px 20px; background-color: #99963C; margin: 10px 5px; border-radius: 5px; box-shadow: 0px 10px 10px -5px #000; text-shadow: 0px 2px 6px #000; }
+
+@media screen and (max-width: 480px) { body.beta main .wrap .skills_section .content_section ul li { margin: 0 auto 14px auto; } }
+
+body.beta main .wrap .skills_section .content_section ul li.learning { opacity: .5; }
 
 body.beta main .wrap .connect_section .content_section { text-align: right; }
 

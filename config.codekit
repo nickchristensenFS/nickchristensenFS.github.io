@@ -225,6 +225,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/graphics\/connect\/codepen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4463,
+		"inputAbbreviatedPath": "\/graphics\/connect\/codepen.png",
+		"outputAbbreviatedPath": "\/graphics\/connect\/codepen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/connect\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14247,
+		"inputAbbreviatedPath": "\/graphics\/connect\/facebook.png",
+		"outputAbbreviatedPath": "\/graphics\/connect\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/connect\/linkedin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15099,
+		"inputAbbreviatedPath": "\/graphics\/connect\/linkedin.png",
+		"outputAbbreviatedPath": "\/graphics\/connect\/linkedin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/connect\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19475,
+		"inputAbbreviatedPath": "\/graphics\/connect\/twitter.png",
+		"outputAbbreviatedPath": "\/graphics\/connect\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/graphics\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
