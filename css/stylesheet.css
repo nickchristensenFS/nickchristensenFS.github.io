@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Maven+Pro:400,500,700,900);
 /* ================== Structure ================== */
-body { margin: 0px; font-family: "Arvo", serif; color: #222; background-color: #2B3033; font-size: 20px; }
+body { margin: 0px; font-family: "Arvo", serif; color: #222; background-color: #2B3033; font-size: 18px; }
 
 .wrap { width: 100%; }
 
@@ -49,7 +49,35 @@ footer .wrap .footer_section .copyright_section p { margin-top: 0px; font-size: 
 /* ================== Beta ================== */
 body.beta main .wrap { color: #fff; }
 
+body.beta main .wrap p { color: #999933; line-height: 28px; }
+
 body.beta main .wrap .about_section { margin-top: 85px; }
+
+body.beta main .wrap .about_section .content_section ul { list-style-type: none; padding: 0; text-align: center; }
+
+body.beta main .wrap .about_section .content_section ul li { display: inline-block; vertical-align: top; }
+
+body.beta main .wrap .about_section .content_section ul li img { max-width: 150px; }
+
+@media screen and (max-width: 480px) { body.beta main .wrap .about_section .content_section ul li img { max-width: 100px; } }
+
+body.beta main .wrap .about_section .content_section ul li .collection_item_description p { width: 150px; font-size: 13px; margin: 0; display: none; }
+
+@media screen and (max-width: 480px) { body.beta main .wrap .about_section .content_section ul li .collection_item_description p { width: 100px; } }
+
+body.beta main .wrap .about_section .content_section ul li .collection_item_label { display: none; }
+
+body.beta main .wrap .work_section .content_section { text-align: right; }
+
+body.beta main .wrap .work_section .content_section ul.web { list-style-type: none; }
+
+body.beta main .wrap .work_section .content_section ul.web li { display: inline-block; }
+
+body.beta main .wrap .work_section .content_section ul.web li ul { list-style-type: none; }
+
+body.beta main .wrap .work_section .content_section ul.web li ul li img { width: 200px; }
+
+body.beta main .wrap .connect_section .content_section { text-align: right; }
 
 /* ================== Homepage ================== */
 body.homepage main { margin-top: 100px; }

@@ -51,6 +51,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/graphics\/about\/beef_sq.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32047,
+		"inputAbbreviatedPath": "\/graphics\/about\/beef_sq.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/beef_sq.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/graphics\/about\/brix.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -62,13 +73,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/graphics\/about\/flps.png": {
+	"\/graphics\/about\/brix_sq.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 57279,
-		"inputAbbreviatedPath": "\/graphics\/about\/flps.png",
-		"outputAbbreviatedPath": "\/graphics\/about\/flps.png",
+		"initialSize": 12072,
+		"inputAbbreviatedPath": "\/graphics\/about\/brix_sq.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/brix_sq.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/about\/firespring.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24115,
+		"inputAbbreviatedPath": "\/graphics\/about\/firespring.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/firespring.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/about\/firespring_sq.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9175,
+		"inputAbbreviatedPath": "\/graphics\/about\/firespring_sq.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/firespring_sq.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/about\/flps.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42497,
+		"inputAbbreviatedPath": "\/graphics\/about\/flps.jpeg",
+		"outputAbbreviatedPath": "\/graphics\/about\/flps.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/about\/flps_sq.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29026,
+		"inputAbbreviatedPath": "\/graphics\/about\/flps_sq.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/flps_sq.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -84,6 +139,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/graphics\/about\/haymakers_sq.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81655,
+		"inputAbbreviatedPath": "\/graphics\/about\/haymakers_sq.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/haymakers_sq.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/graphics\/about\/unl.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -91,6 +157,17 @@
 		"initialSize": 92731,
 		"inputAbbreviatedPath": "\/graphics\/about\/unl.png",
 		"outputAbbreviatedPath": "\/graphics\/about\/unl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/about\/unl_sq.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12778,
+		"inputAbbreviatedPath": "\/graphics\/about\/unl_sq.png",
+		"outputAbbreviatedPath": "\/graphics\/about\/unl_sq.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -139,17 +216,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/graphics\/bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1002,
-		"inputAbbreviatedPath": "\/graphics\/bg.png",
-		"outputAbbreviatedPath": "\/graphics\/bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/graphics\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -172,6 +238,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/graphics\/work\/patio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57588,
+		"inputAbbreviatedPath": "\/graphics\/work\/patio.jpg",
+		"outputAbbreviatedPath": "\/graphics\/work\/patio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/graphics\/work\/tweet_fb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 580661,
+		"inputAbbreviatedPath": "\/graphics\/work\/tweet_fb.png",
+		"outputAbbreviatedPath": "\/graphics\/work\/tweet_fb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -180,6 +268,28 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/js\/lightbox-plus-jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/lightbox-plus-jquery.js",
+		"outputAbbreviatedPath": "\/js\/lightbox-plus-jquery.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/lightbox-plus-jquery.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/lightbox-plus-jquery.min.js",
+		"outputAbbreviatedPath": "\/js\/lightbox-plus-jquery.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/js\/script.js": {
 		"fileType": 64,

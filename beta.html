@@ -5,7 +5,9 @@
 
 		<link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="UTF-8" />
 		<link rel="stylesheet" href="css/media.css" type="text/css" charset="UTF-8" />
+		
 		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
+		<link href="path/to/lightbox.css" rel="stylesheet">
 
 
 	</head>
@@ -21,8 +23,8 @@
 				<div class="top_section">
 					<nav class="main-nav">
 						<div class="content_section">
-					<img src="graphics/logo.png"/>
-				</div>
+							<img src="graphics/logo.png"/>
+						</div>
 					</nav>
 				</div>
 
@@ -36,23 +38,64 @@
 
 				<div class="about_section">
 					<div class="content_section">
-						<h2>About</h2>
-						<p>this is text</p>
+						<h2>Where I Come From</h2>
+						<p>A university center. A wine retailer and bistro. A non-profit for education.  Two indoor football teams. What do all these places have in common? All have given me a piece of the marketing experience. Working in both the for-profit and non-profit worlds has allowed me to connect with different audiences and to communicate a variety of different brands.</p>
 						<ul>
-							<li><img src="graphics/about/flps.png"/></li>
-							<li><img src="graphics/about/haymakers.png"/></li>
-							<li><img src="graphics/about/beef.png"/></li>
-							<li><img src="graphics/about/brix.png"/></li>
-							<li><img src="graphics/about/unl.png"/></li>
+							<li>
+								<a href=""><img src="graphics/about/firespring_sq.png"/></a>
+								<div class="collection_item_label"><a href="">Label</a></div>
+								<div class="collection_item_description"><p>Firespring</p></div>
+								<div class="collection_item_end"></div>
+							</li>
+							<li>
+								<a href=""><img src="graphics/about/flps_sq.png"></a>
+								<div class="collection_item_label"><a href="">Label</a></div>
+								<div class="collection_item_description"><p>Foundation for Lincoln Public Schools</p></div>
+								<div class="collection_item_end"></div>
+							</li>
+							<li>
+								<a href=""><img src="graphics/about/haymakers_sq.png"></a>
+								<div class="collection_item_label"><a href="">Label</a></div>
+								<div class="collection_item_description"><p>Lincoln Haymakers</p></div>
+								<div class="collection_item_end"></div>
+							</li>
+							<li>
+								<a href=""><img src="graphics/about/beef_sq.png"></a>
+								<div class="collection_item_label"><a href="">Label</a></div>
+								<div class="collection_item_description"><p>Omaha Beef</p></div>
+								<div class="collection_item_end"></div>
+							</li>
+							<li>
+								<a href=""><img src="graphics/about/brix_sq.png"></a>
+								<div class="collection_item_label"><a href="">Label</a></div>
+								<div class="collection_item_description"><p>Brix</p></div>
+								<div class="collection_item_end"></div>
+							</li>
+							<li>
+								<a href=""><img src="graphics/about/unl_sq.png"></a>
+								<div class="collection_item_label"><a href="">Label</a></div>
+								<div class="collection_item_description"><p>University of Nebraska-Lincoln</p></div>
+								<div class="collection_item_end"></div>
+							</li>
+						</ul>
+
 					</div>
 				</div>
 
 
 				<div class="work_section">
 					<div class="content_section">
-						<h2>Work</h2>
-						<p>this is text</p>
-					</div>
+						<h2>What I Can Do</h2>
+						<p>I bring a lot the table. My education consists of a Bachelor of Journalism from the University of Nebraska-Lincoln. My design skills expand over web and print advertising. My technical skills derive from my experience using many different software and web platforms, and I love the challenge of learning new technologies. I have also dabbled in event coordinating and photography.</p>
+						<ul>
+							<li>
+								<a href="graphics/work/patio.jpg" data-lightbox="image-1" data-title="My caption">Image #1</a>
+							</li>
+							<li>
+								<img src="graphics/work/patio.jpg"/>
+							</li>
+						</ul>
+					</div>		
 				</div>
 
 
@@ -85,15 +128,17 @@
 						var today = new Date()
 						var year = today.getFullYear()
 						document.write(year)
-					</script> 
-					Nick Christensen. All rights reserved.</p> 
+						</script> 
+						Nick Christensen. All rights reserved.</p> 
+					</div>
 				</div>
-			</div>
 
-		</div><!--end wrap-->
+			</div><!--end wrap-->
 
-	</footer><!--end footer-->
+		</footer><!--end footer-->
 
-</body><!--end body-->
+		<script src="js/lightbox-plus-jquery.js"></script>
 
-</html><!--end html-->
+	</body><!--end body-->
+
+	</html><!--end html-->

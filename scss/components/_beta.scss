@@ -6,14 +6,67 @@
 		main {
 			.wrap {
 				color:#fff;
+				p {
+					color: #999933;
+					line-height: 28px;
+				}
 				.about_section {
 					margin-top: 85px;
+					.content_section {
+						ul {
+							list-style-type: none;
+							padding: 0;
+							text-align: center;
+							li {
+								display: inline-block;
+								vertical-align: top;
+								img {
+									max-width:150px;
+									@media screen and (max-width: 480px) {
+										max-width:100px;
+									}
+								}
+								.collection_item_description p {
+								    width: 150px;
+								    font-size: 13px;
+								    margin: 0;
+								    display: none;
+								    @media screen and (max-width: 480px) {
+										width:100px;
+									}
+								}
+								.collection_item_label {
+									display: none;
+								}
+							}
+						}
+					}
 				}
 				.work_section {
+					.content_section {
+						text-align: right;
+						ul.web {
+							list-style-type: none;
+							li {
+								display: inline-block;
+								ul {
+									list-style-type: none;
+									li {
+										img {
+											width:200px;
+										}
+									}
+								}
+							}
+						}
+					}
 				}
 				.skills_section {
 				}
 				.connect_section {
+					.content_section {
+						text-align: right;
+					}
 				}
 			}
 		}
