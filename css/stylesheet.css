@@ -6,6 +6,8 @@ body { margin: 0px; font-family: "Arvo", serif; color: #222; background-color: #
 
 h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: 700; font-family: "Maven Pro", sans-serif; }
 
+@media screen and (max-width: 480px) { h1, h2, h3, h4, h5, h6 { font-size: 28px; } }
+
 h1 { font-size: 50px; }
 
 h2 { font-size: 40px; }
@@ -20,7 +22,11 @@ h6 { font-size: 20px; }
 
 p { margin: 0; margin-top: 20px; }
 
-.content_section, .copyright_section { padding: 50px 20px; max-width: 940px; margin: 0 auto; }
+@media screen and (max-width: 480px) { p { font-size: 16px; } }
+
+.content_section, .copyright_section { padding: 400px 20px; max-width: 940px; margin: 0 auto; }
+
+@media screen and (max-width: 480px) { .content_section, .copyright_section { padding: 30px 10px; } }
 
 a { text-decoration: none; }
 
@@ -78,8 +84,6 @@ body.beta main .wrap .about_section .content_section ul li .collection_item_labe
 
 body.beta main .wrap .work_section { box-shadow: 0px 0px 15px 1px #000; background-color: #353C44; }
 
-body.beta main .wrap .work_section .content_section { text-align: right; }
-
 body.beta main .wrap .work_section .content_section .row1, body.beta main .wrap .work_section .content_section .row2 { margin-top: 20px; }
 
 body.beta main .wrap .work_section .content_section .row1 a img, body.beta main .wrap .work_section .content_section .row2 a img { width: 150px; }
@@ -94,20 +98,26 @@ body.beta main .wrap .work_section .content_section .row1 a.lightbox img, body.b
 
 body.beta main .wrap .work_section .content_section .row1 a.lightbox img:hover, body.beta main .wrap .work_section .content_section .row2 a.lightbox img:hover { opacity: 1.0; }
 
-body.beta main .wrap .skills_section .content_section ul { margin: 20px 0; padding: 0; list-style-type: none; }
+body.beta main .wrap .skills_section .content_section h2 { margin-bottom: 20px; }
 
-body.beta main .wrap .skills_section .content_section ul li { display: inline-block; padding: 15px 20px; background-color: #99963C; margin: 10px 5px; border-radius: 5px; box-shadow: 0px 10px 10px -5px #000; text-shadow: 0px 2px 6px #000; }
+body.beta main .wrap .skills_section .content_section ul { margin: 0; padding: 0; list-style-type: none; }
 
-@media screen and (max-width: 480px) { body.beta main .wrap .skills_section .content_section ul li { margin: 0 auto 14px auto; } }
+body.beta main .wrap .skills_section .content_section ul li { display: inline-block; padding: 15px 20px; background-color: #99963C; margin: 10px 5px; border-radius: 5px; box-shadow: 0px 10px 10px -5px #000; text-shadow: 0px 2px 6px #000; font-size: 22px; }
 
-body.beta main .wrap .skills_section .content_section ul li.learning { opacity: .5; }
+@media screen and (max-width: 480px) { body.beta main .wrap .skills_section .content_section ul li { margin: 0 auto 14px auto; font-size: 14px; } }
 
-body.beta main .wrap .connect_section .content_section { text-align: right; }
+body.beta main .wrap .skills_section .content_section ul li.learning { background-color: rgba(153, 150, 60, 0.5); color: #B3B1B1; }
+
+body.beta main .wrap .connect_section .content_section ul { margin: 20px 0; padding: 0; list-style-type: none; }
+
+body.beta main .wrap .connect_section .content_section ul li { display: inline-block; }
+
+body.beta main .wrap .connect_section .content_section ul li img { width: 100px; height: 100px; filter: brightness(0) invert(1); -webkit-filter: brightness(0) invert(1); }
 
 /* ================== Homepage ================== */
 body.homepage main { margin-top: 100px; }
 
-body.homepage main .wrap .two .content_section { color: #fff; text-align: center; }
+body.homepage main .wrap .two .content_section { color: #fff; text-align: center; padding: 200px 20px; }
 
 body.homepage main .wrap .two .content_section .logo { background-image: url("../graphics/logo_white.png"); height: 150px; width: 150px; margin: 0 auto; -webkit-animation-name: example; /* Chrome, Safari, Opera */ -webkit-animation-duration: 1.2s; /* Chrome, Safari, Opera */ -webkit-animation-name: example; -o-animation-name: example; animation-name: example; -webkit-animation-duration: 1.2s; -o-animation-duration: 1.2s; animation-duration: 1.2s; -webkit-animation-iteration-count: infinite; -o-animation-iteration-count: infinite; animation-iteration-count: infinite; }
 
