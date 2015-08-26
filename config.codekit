@@ -262,6 +262,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/graphics\/football.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 299327,
+		"inputAbbreviatedPath": "\/graphics\/football.png",
+		"outputAbbreviatedPath": "\/graphics\/football.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/graphics\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
