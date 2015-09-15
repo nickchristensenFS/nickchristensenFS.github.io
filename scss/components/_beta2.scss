@@ -1,0 +1,35 @@
+/* ==================
+	Beta
+	================== */
+
+	@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300,100italic,300italic,400italic,600,600italic,700,700italic|Shadows+Into+Light);
+
+	// Fonts //
+
+	//font-family: 'Josefin Sans', sans-serif;
+	//font-family: 'Shadows Into Light', cursive;
+
+	body.beta2 {
+		background: #fff;
+		header {
+			.wrap {
+				.top_section {
+					background: gray;
+					.main-nav {
+						background: transparent;
+					}
+				}
+			}
+		}
+		main {
+			margin-top: 100px;
+		}
+		footer {
+		}
+	}
+
+
+
+
+
+
