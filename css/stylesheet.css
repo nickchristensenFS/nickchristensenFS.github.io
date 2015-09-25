@@ -11,10 +11,17 @@
 	Beta
 	================== */
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Maven+Pro:400,500,700,900);
-body.home, html { height: 100%; margin: 0; }
-body.home .wrapper, html .wrapper { height: 100%; padding-top: 20px; /* ==================
-	Header
-	================== */ }
+body.beta.home .wrapper:before { box-sizing: border-box; display: block; font-size: 4em; padding: 1em; width: 6em; height: 3em; position: fixed; top: 50%; left: 50%; -webkit-transform: translate3d(-50%, -50%, 0); transform: translate3d(-50%, -50%, 0); }
+
+body.beta.home { margin: 0; padding: 0; }
+body.beta.home .content { font-weight: bold; text-align: center; z-index: 1000; background: #fff; color: #000; mix-blend-mode: lighten; position: fixed; top: 50%; left: 50%; -webkit-transform: translate3d(-50%, -50%, 0); transform: translate3d(-50%, -50%, 0); padding: 50px; border-radius: 270px; width: 400px; height: 400px; font-size: 78px; z-index: 2; }
+body.beta.home section { background-repeat: no-repeat; background-size: cover; isolation: isolate; position: relative; height: 100vh; }
+body.beta.home .wrapper { clip: rect(auto auto auto auto); position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
+body.beta.home .wrapper:before { content: " "; mix-blend-mode: darken; padding: 2em 3.5em; border-radius: 200px; }
+body.beta.home .two { background-image: url("../graphics/beta/topkapi.jpg"); }
+body.beta.home .two .wrapper:before { background: #7B0216; mix-blend-mode: screen; }
+body.beta.home .four { background-image: url("../graphics/beta/epheseus.jpg"); background-position: 50%; }
+body.beta.home .four .wrapper:before { background: #011D6B; mix-blend-mode: screen; }
 
 /* ==================
 	Beta 2
