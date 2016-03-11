@@ -1,0 +1,525 @@
+// =============================================================================
+// Landing Page Layout
+// =============================================================================
+
+// contentspace numbers
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 1-Headline
+// 2-Video/Image(size)
+// 3-Call to Action 
+// 4-Callout
+// 5-Primary
+// 6-Testimonials
+// 7-Fundraising
+// 8-Sponsors
+// 9-Masthead
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Dependencies
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+
+// js dependencies
+//////////////////////////////////////////////
+
+function landingImage(element, options) {
+  $( element ).each(function() {
+   var imgSrc = $(this).find('.masthead-container img').first().attr('src');
+   $(this).find('.masthead-container').hide();
+   $(this).css('background', 'url('+imgSrc+')' + options);
+  });
+}
+landingImage($(".has-bg-landing"), "center center / cover no-repeat");
+
+
+function backgroundImage(element, options) {
+  $( element ).each(function() {
+   var imgSrc = $(this).find('img').first().attr('src');
+   $(this).find('img').first('img').hide();
+   $(this).css('background', 'url('+imgSrc+')' + options);
+  });
+}
+backgroundImage($(".has-bg-li__collection li .collection-item-image"), "center center / cover no-repeat");
+
+
+// scss dependencies
+//////////////////////////////////////////////
+requires breakpoint mixin
+
+
+*/
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+//////////////////////////////////////
+//landing page variables
+//////////////////////////////////////
+
+
+//structure
+$landing-wrap-width: $wrap-width;
+$landing-wrap-padding: 0 15px;
+
+//background colors
+$landing-body-bg: #000;
+$landing-header-bg: #fff;
+
+
+
+// =============================================================================
+//  Contentspace Setup
+// =============================================================================
+
+// =============================================================================
+$landing-headline-color:    #fff;
+$landing-h1-font-size:      60px;
+$landing-h1-font-weight:    bold;
+$landing-h1-line-height:    64px;
+$landing-h1-text-transform: uppercase;
+
+
+// =============================================================================
+$landing-cta-bg:              null;
+$landing-cta-color:           #000;
+
+// =============================================================================
+$landing-callout-bg:             null;
+$landing-callout-color:          #000;
+$landing-callout-font-size:      18px;
+$landing-callout-text-alignment: center;  //options: left, center, right
+
+// =============================================================================
+$landing-primary-bg:           #fff;
+$landing-primary-color:        #000;
+
+// =============================================================================
+$landing-testimonials-background: lighten(#eee,5);
+$landing-testimonials-color:      #000;
+
+// =============================================================================
+$landing-fundraising-bg:       #fff;
+$landing-fundraising-color:    #000;
+
+// progress bar
+// =============================================================================
+$trench-border: black;
+$trench-bg: #fff;
+$trench-fill: #e77d5c;
+
+
+// Styles
+////////////////////////////////////////////////////////////////////////////////////
+.landing {
+  background: $landing-body-bg;
+  .site-container {
+    display: block;
+    background: #fff;
+  }
+  .wrap {
+    margin: 0 auto;
+    max-width: $landing-wrap-width;
+    padding: $landing-wrap-padding;
+  }
+
+  //////////////////////////////////////
+  //header
+  header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: $landing-header-bg;
+    display: flex;
+    justify-content: center;
+    .nav-logo {
+      img {
+        max-width: 100%;
+        max-height: 150px;
+        padding: 20px 0px;
+      }
+    }
+  }
+
+  .masthead-container {
+    position: relative;
+    padding: 20px 0 140px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(#000, 0.5);
+    }
+  }
+
+  //////////////////////////////////////
+  // 1. page headline
+  .headline-container {
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    h1 {
+      font-size:      $landing-h1-font-size;
+      font-weight:    $landing-h1-font-weight;
+      line-height:    $landing-h1-line-height;
+      text-transform: $landing-h1-text-transform;
+      margin-bottom:  30px;
+      @include medium-down {
+        font-size:      $landing-h1-font-size - 10;
+        font-weight:    $landing-h1-font-weight - 10;
+        line-height:    $landing-h1-line-height - 10;
+        margin-bottom:  30px;
+      }
+      @include medium-down {
+        font-size:      $landing-h1-font-size - 20;
+        font-weight:    $landing-h1-font-weight - 20;
+        line-height:    $landing-h1-line-height - 20;
+        margin-bottom:  30px;
+      }
+    }
+    h1,h2,h3,h4,h5,h6 {
+      color: $landing-headline-color;
+      margin: 10px 0;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {}
+    a {}
+    
+    .collection {}
+    .collection-item__content {}
+    
+    .collection-item-label a {
+      color: #fff;
+      background: #e77d5c;
+      padding: 10px 20px;
+      display: inline-block;  
+      font-weight: lighter;
+      text-transform: uppercase;
+      border: 2px solid #e77d5c;
+      &:hover {
+        background: transparent;
+        border: 2px solid #fff;
+      }
+    }
+    .collection-item-image,
+    .collection-item-description {
+      display: none;
+    }
+  }
+
+  //////////////////////////////////////
+  // 2. media
+  .media-container {
+    margin-top: -120px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    .wrap {
+      max-width: 640px;
+    }
+  }
+
+
+  ////////////////////////////////////////////////////////////////////////////////
+  // columns
+  ////////////////////////////////////////////////////////////////////////////////
+  .columns-container {
+    padding: 20px 0 100px;
+
+    .wrap {
+      display: flex;
+      justify-content: center;
+      max-width: $wrap-width + 40px;
+      @include medium-down {
+        flex-direction: column;
+      }
+    }
+
+    .columns-content {
+      flex: 0 1 auto;
+      margin: 0 20px;
+    }
+
+    .cta-container {
+      border-radius: 5px;
+      background: #eee;
+      min-width: 50%;
+      margin: 0 20px;
+      padding: 20px;
+    }
+
+  }
+
+
+  //////////////////////////////////////
+  // 3. form / call to action
+  .cta-container {
+    background: $landing-cta-bg;
+    color: $landing-cta-color;
+  }
+
+  //////////////////////////////////////
+  // 4. call out box
+  .callout-container {
+    background: $landing-callout-bg;
+    color: $landing-callout-color;
+    text-align: $landing-callout-text-alignment;
+    font-size: $landing-callout-font-size;
+    padding: 40px 0;
+    position: relative;
+    z-index: 10;
+  }
+
+  //////////////////////////////////////
+  // 5. primary
+  .primary-container {
+    background: $landing-primary-bg;
+    color: $landing-primary-color;
+    padding: 60px 0;
+    flex-direction: column;
+    .wrap {
+      display: flex;
+      justify-content: space-between;
+      @include medium-down {
+        display: block;
+      }
+    }
+    .primary-content {
+      max-width: 48%;
+      @include medium-down {
+        max-width: none;
+      }
+    }
+  }
+
+
+  
+
+
+  *{
+  }
+  //////////////////////////////////////
+  // 6. testimonials
+  .testimonials-container {
+    // color: $landing-testimonials-color;
+    background: $landing-testimonials-background;
+    border: 1px solid darken(#eee,5);
+    border-width: 1px 0 1px 0;
+    padding: 30px 0;
+    // margin: 100px 0 30px;
+    h1,h2,h3,h4,h5,h6 {
+      color: #000;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 60px;
+    }
+
+    //collection
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      @include medium-down {
+        display: block;
+      }
+    }
+    li {
+      position: relative;
+      flex: 0 1 50%;
+      min-height: 140px;
+      padding-right: 20px;
+      @include medium-down {
+        max-width: none;
+        margin-bottom: 50px;
+      }
+    }
+    a {}
+    .collection {}
+    .collection-item__content {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .collection-item-image {
+      width: 100px;
+      height: 100px;
+      border: 4px solid #fff;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .collection-item-label {
+      margin-left: 120px;
+      order: 5;
+      color: #000;
+    }
+    .collection-item-description {
+      margin-left: 120px;
+      margin-bottom: 20px;
+      order: 1;
+
+    }
+  }
+
+  //////////////////////////////////////
+  // 7. fundraising
+  .fundraising-container {
+    color: $landing-fundraising-color;
+    text-align: center;
+    background: $landing-fundraising-bg;
+  }
+
+
+
+
+  //////////////////////////////////////
+  // logos
+  .logos-container {
+    background: #fff;
+    position: relative;
+    padding: 20px 0;
+
+    .wrap {
+
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #000;
+    }
+
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      @include medium-down {
+        flex-wrap: wrap;
+      }
+    }
+    li {
+      flex: 0 1 auto;
+      padding: 15px;
+      @include small-down {
+        flex: 0 1 50%;
+        &:nth-child(n+5) {
+          display: none;
+        }
+      }
+    }
+    a {}
+    .collection {
+      margin-bottom: 0;
+    }
+    .collection-item__content {}
+    
+    .collection-item-image {
+      margin: 0;
+      text-align: center;
+      img {
+
+      }
+    }
+
+    .collection-item-label,
+    .collection-item-description {display: none;}
+  }
+
+
+
+  //////////////////////////////////////
+  //footer
+  footer {
+    padding: 20px 0;
+    background: #000;
+    .location-container {
+      text-align: center;
+      margin-bottom: 20px;
+
+      .locations-hours--variable {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        @include small-down {
+          display: block;
+        }
+      }
+      .location {
+        margin: 20px;
+      }
+      .location__title {
+        display: none;
+      }
+      .label {
+        display: none;
+      }
+      .location__info {
+      }
+      .location__hours {
+        display: none;
+      }
+    }
+    
+    .bottom-footer-container {
+      display: flex;
+      justify-content: center;
+      @include medium-down {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    .policy-links {
+      margin-left: 1rem;
+    }
+    
+    .powered-by-block {
+      text-align: center;
+      margin-left: 1rem;
+    }
+  }
+
+
+}
+
+
+
+.progress-bar {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+.progress-bar__trench {
+  height: 3.5rem;
+  border: 4px solid $trench-border;
+  border-radius: 30px;
+  padding: 8px;
+  background-color: $trench-bg;
+}
+.progress-bar__meter {
+  height: 100%;
+  border-radius: 30px;
+  background-color: $trench-fill;
+}
+.progress-bar__metrics {
+  font-size: 20px;
+  font-weight: bold;
+}

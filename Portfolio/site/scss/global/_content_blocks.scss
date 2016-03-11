@@ -1,0 +1,194 @@
+// =============================================================================
+// Content Blocks 
+// =============================================================================
+
+// Donate: Collection with 1 Donate item Displaying
+// Email Marketing: Email marketing component, unconfigured
+// Featured 1: Image content (no image selected), Headline, Text
+// Featured 2: Image content (no image selected), Headline, Text
+// Featured 3: Image content (no image selected), Headline, Text
+// Footer Links: List collection with 5 items Displaying
+// Powered by Firespring.org: Text content
+// Quicklinks: List collection with 4 items Displaying 
+// Search: Search form component
+// Social Media: Collection, with 5 items Not displaying
+// Sponsors: Sponsors slider List Collection (empty)
+
+
+
+
+// =============================================================================
+// donate
+// =============================================================================
+.content-block.donate-block {
+  
+}
+
+// =============================================================================
+// email-marketing
+// =============================================================================
+.content-block.email-marketing-block {
+  
+}
+
+// =============================================================================
+// featured-1
+// =============================================================================
+.content-block.featured-1-block {
+  
+}
+
+// =============================================================================
+// featured-2
+// =============================================================================
+.content-block.featured-2-block {
+  
+}
+
+// =============================================================================
+// featured-3
+// =============================================================================
+.content-block.featured-3-block {
+  
+}
+
+// =============================================================================
+// footer-links
+// =============================================================================
+.content-block.footer-links-block {
+  
+}
+
+// =============================================================================
+// powered-by
+// =============================================================================
+.content-block.powered-by-block {
+  
+}
+
+// =============================================================================
+// quicklinks
+// =============================================================================
+.content-block.quicklinks-block {
+  
+}
+
+// =============================================================================
+// search
+// =============================================================================
+.content-block.search-block {
+  
+}
+
+// =============================================================================
+// social media
+// =============================================================================
+.content-block.social-media-block {
+  .collection {
+
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  li {}
+  a {}
+  img {
+    width: auto;
+  }
+  .collection-item__content {}
+  // content
+  .collection-item-image {}
+  .collection-item-label,
+  .collection-item-description {
+    display: none;
+  }
+}
+
+// =============================================================================
+// sponsors
+// =============================================================================
+$sponsors-height: 150px;
+$sponsors-arrow-color: black;
+
+.sponsors-container {
+  background: #fff;
+  position: relative;
+
+  .wrap {
+    position: relative;
+    max-width: $wrap-width - 40px;
+    padding: 0;
+  }
+
+  .collection--list {
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+
+  ul {
+    position: relative;
+    height: $sponsors-height;
+    max-width: 1120px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    z-index: 10;
+    &.no-sliding {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  li {
+    opacity: 1 !important;
+  }
+
+  .collection-item-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    img {
+      width: auto;
+      height: auto;
+      max-height: 100%;
+      max-height: 100%;
+
+    }
+  }
+
+  .collection-item-label,
+  .collection-item-description {
+    display: none;
+  }
+
+  //slider nav
+  .slider__nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .slider-nav {
+    &:after {
+      color: $sponsors-arrow-color;
+      font-size: 40px;
+    }
+  }
+  .slider-nav--prev:after {
+    content: "\f104";
+  }
+  .slider-nav--next:after {
+    content: "\f105";
+  }
+
+}

@@ -1,0 +1,97 @@
+// =============================================================================
+//  fireslider
+//==============================================================================
+$fireslider-height-large:  480px; //480px set by core
+$fireslider-height-medium: 480px;
+$fireslider-height-small:  480px; 
+
+.spotlight--list {
+
+  .slider__contents {
+
+  }
+
+  ul {
+    height: $fireslider-height-large;
+    @include medium-down {
+      height: $fireslider-height-medium;
+    }
+    @include small-down {
+      height: $fireslider-height-small;
+    }
+  }
+
+  li {
+    opacity: 1;
+  }
+  
+  li.fire-slide-active {
+  }
+
+  .spotlight-content {
+
+  }
+
+  a {
+
+  }
+
+  .spotlight-image {
+    img {
+
+    }
+  }
+
+  //overlay
+  .spotlight-overlay {
+    .spotlight-text {
+
+      .spotlight-text__title {
+
+      }
+      .spotlight-text__content {
+
+      }
+    }
+
+    .spotlight-button {
+      .spotlight-button__contents {
+
+      }
+    }
+
+  }
+
+  //slider controls
+  .slider__controls {
+
+    .slider-controls-nav {
+      //both
+      .slider-nav {
+        &:after {
+          font-size: 120px;
+          color: red;
+        }
+      }
+
+      .slider-nav--prev {
+        &:after {
+          content: '\f104';
+        }
+      }
+      .slider-nav--next {
+        &:after {
+          content: '\f105';
+        }
+      }
+    }
+
+    .slider-controls-pager {
+      display: none;
+    }
+
+  }
+
+
+
+}// spotlight--list

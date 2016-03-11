@@ -1,0 +1,205 @@
+{% extends "@design/index.twig" %}
+
+{% set body_classes = "landing" %}
+
+  {% set content_spaces = {
+  'headline'        : fdp_content_spaces.1,
+  'media'           : fdp_content_spaces.2,
+  'cta'             : fdp_content_spaces.3,
+  'callout'         : fdp_content_spaces.4,
+  'primary'         : fdp_content_spaces.5,
+  'testimonials'    : fdp_content_spaces.6,
+  'fundraising'     : fdp_content_spaces.7,
+  'partners'        : fdp_content_spaces.8,
+  'masthead'        : fdp_content_spaces.9
+} %}
+
+{% set content_blocks = {
+  'social_media'        : fdp_content_spaces.10,
+  'powered_by'          : fdp_content_spaces.11
+} %}
+
+{% block content %}
+
+
+  <!-- BEGIN .site-container -->
+  <div class="site-container">
+
+    <header>
+      <!-- BEGIN .wrap -->
+      <div class="wrap">
+        <!-- BEGIN nav-logo -->
+        {% if fdp_logos.3 is not empty %}
+          <div class="nav-logo">
+            {{ fdp_logos.3.link|raw }}<img src="{{ fdp_logos.3.url }}"></a>
+          </div>
+        {% endif %}
+        <!-- END nav-logo -->
+      </div>
+      <!-- END .wrap -->
+    </header>
+
+    <!-- BEGIN .masthead-container -->
+    <div class="masthead-container has-bg">
+
+      <!-- BEGIN .masthead-image -->
+      {% if content_spaces.masthead is not empty %}
+        <div class="masthead-image">
+          {{ content_spaces.masthead|raw }}
+        </div>
+      {% endif %}
+      <!-- END .masthead-image -->
+
+      <!-- BEGIN .wrap -->
+      <div class="wrap">
+
+
+        <!-- BEGIN .headline-container -->
+        {% if content_spaces.headline is not empty %}
+          <div class="headline-container">
+            {{ content_spaces.headline|raw }}
+          </div>
+        {% endif %}          
+        <!-- END .headline-container -->
+
+      </div>
+      <!-- END .wrap -->
+
+      
+    </div>
+    <!-- END .masthead-container -->
+
+    <!-- BEGIN .media-container -->
+    {% if content_spaces.media is not empty %}
+      <div class="media-container">
+        {{ content_spaces.media|raw }}
+      </div>
+    {% endif %}
+    <!-- END .media-container -->
+
+    <!-- BEGIN .callout-container -->
+    {% if content_spaces.callout is not empty %}
+      <div class="callout-container">
+        <!-- BEGIN .wrap -->
+        <div class="wrap">
+          {{ content_spaces.callout|raw }}
+        </div>
+        <!-- END .wrap -->
+      </div>
+    {% endif %}
+    <!-- END .callout-container -->
+
+    <!-- BEGIN .columns-container -->
+    <div class="columns-container">
+      <!-- BEGIN .wrap -->
+      <div class="wrap">
+
+
+        <!-- BEGIN .columns-content -->
+        <div class="columns-content">
+
+          <!-- BEGIN .fundraising-container -->
+          {% if content_spaces.fundraising is not empty %}
+            <div class="fundraising-container">
+              {{ content_spaces.fundraising|raw }}
+            </div>
+          {% endif %}
+          <!-- END .fundraising-container -->
+
+
+          <!-- BEGIN .primary-container -->
+          <div class="primary-container">
+            {% if content_spaces.primary is not empty %}
+              {{ content_spaces.primary|raw }}
+            {% endif %}
+          </div>
+          <!-- END .primary-container -->
+
+        </div>
+        <!-- END .columns-content -->
+
+        {% if content_spaces.cta is not empty %}
+          <!-- BEGIN .cta-container -->
+          <div class="cta-container">
+           {{ content_spaces.cta|raw }}
+         </div>
+         <!-- END .cta-container -->
+       {% endif %}
+
+     </div>
+     <!-- END .wrap -->
+   </div>
+   <!-- END .columns-container -->
+
+
+   {% if content_spaces.partners is not empty %}
+    <!-- BEGIN .logos-container -->
+    <div class="logos-container">
+      <!-- BEGIN .wrap -->
+      <div class="wrap">
+       {{ content_spaces.partners|raw }}
+     </div>
+     <!-- END .wrap -->
+   </div>
+   <!-- END .logos-container -->
+ {% endif %}
+
+ <!-- BEGIN .testimonials-container -->
+ {% if content_spaces.testimonials is not empty %}
+   <div class="testimonials-container has-bg-li__collection">
+    <!-- BEGIN .wrap -->
+    <div class="wrap">
+      {{ content_spaces.testimonials|raw }}
+    </div>
+    <!-- END .wrap -->
+  </div>
+{% endif %}
+<!-- END .testimonials-container -->
+
+<!-- BEGIN footer -->
+<footer>
+  <!-- BEGIN .wrap -->
+  <div class="wrap">
+
+    <!-- BEGIN .location-container -->
+    <div class="location-container">
+
+      {% include '@core/fdp_locations.twig' %}
+
+
+      {% if content_blocks.social_media is not empty %}
+        {{ content_blocks.social_media |raw }}
+      {% endif %}
+      
+    </div>
+    <!-- END .location-container -->
+
+
+    <!-- BEGIN .bottom-footer-container -->
+    <div class="bottom-footer-container">
+      <!-- BEGIN .copy-container -->
+      <div class="copy-container">
+        <p>&copy; {{ fdp_website_title }} {{ "now"|date('Y') }} </p>
+      </div>
+      <!-- END .copy-container -->
+
+      {% include "@core/fdp_policies.twig" %}
+
+      <!-- BEGIN .content-block powered-by-block -->
+      {% if content_blocks.powered_by is not empty %}
+        {{ content_blocks.powered_by |raw }}
+      {% endif %}
+      <!-- END .content-block powered-by-block -->
+    </div>
+    <!-- END .bottom-footer-container -->
+
+  </div>
+  <!-- END .wrap -->
+</footer>
+<!-- END footer -->
+
+</div>
+<!-- END .site-container -->
+
+
+{% endblock %}

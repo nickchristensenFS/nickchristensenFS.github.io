@@ -1,0 +1,24 @@
+{% extends "@core/base.twig" %}
+
+{% block content %}
+
+
+  {% block header %}
+    {% include '@design/header.twig' %}
+  {% endblock %}
+
+  {% block inner_content %}{% endblock %}
+
+  {% block footer %}
+    {% include '@design/footer.twig' %}
+  {% endblock %}
+
+  
+{% endblock %}
+
+
+{% block javascripts_footer %}
+  {% javascripts '@design/js/site.inc.js' %}
+    <script src="{{ asset_url }}" type="text/javascript"></script>
+  {% endjavascripts %}
+{% endblock %}

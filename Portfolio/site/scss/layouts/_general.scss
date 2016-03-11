@@ -1,0 +1,44 @@
+/* =============================================================================
+	General
+============================================================================= */
+
+.one_is_visible {
+	.projects-container {
+		li:nth-child(n+2) {
+			display: none;
+		}
+	}
+}
+
+.two_is_visible {
+	.projects-container {
+		li:nth-child(n+1) {
+			display: none;
+		}
+		li:nth-child(2) {
+			display: block;
+		}
+	}
+}
+
+.three_is_visible {
+	.projects-container {
+		li:nth-child(n+1) {
+			display: none;
+		}
+		li:nth-child(3) {
+			display: block;
+		}
+	}
+}
+
+.four_is_visible {
+	.projects-container {
+		li:nth-child(n+1) {
+			display: none;
+		}
+		li:nth-child(4) {
+			display: block;
+		}
+	}
+}
