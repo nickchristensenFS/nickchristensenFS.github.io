@@ -1,0 +1,101 @@
+/* =============================================================================
+	Overrides (need to copy this to sass, along with fonts LATO)
+============================================================================= */
+
+/* Nav Container */
+
+.homepage {
+    background: transparent;
+}
+
+.homepage main .wrap .nav-container {
+	background: #000;
+	position: relative;
+	transition: .5s background ease;
+}
+
+div.nav-logo {
+	background: url(../graphics/logoW.png) no-repeat;
+	width: 150px;
+    height: 42px;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+div.nav-logo img {
+	display: none;
+}
+
+.homepage main .wrap .nav-container nav.sidenav ul li {
+	background: #fff;
+}
+
+.homepage main .wrap .nav-container nav.sidenav ul li:hover {
+	background: #000;
+}
+
+nav.sidenav {
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.two_is_visible main .wrap .nav-container, .four_is_visible main .wrap .nav-container{
+	background: #fff;
+	transition: 1s background ease;
+}
+
+.two_is_visible main .wrap .nav-container nav.sidenav ul li, .four_is_visible main .wrap .nav-container nav.sidenav ul li {
+	background: #000;
+}
+
+.two_is_visible main .wrap .nav-container nav.sidenav ul li:hover, .four_is_visible main .wrap .nav-container nav.sidenav ul li:hover {
+	background: #fff;
+}
+
+.two_is_visible div.nav-logo, .four_is_visible div.nav-logo {
+	background: url(../graphics/logo.png) no-repeat;
+	width: 150px;
+    height: 42px;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+
+/* Project Container */
+
+.homepage main .wrap .projects-container .collection ul li .collection-item__content .collection-item-label {
+	top: auto;
+	bottom: 50%;
+	left: auto;
+	right: 20px;
+}
+
+.homepage main .wrap .projects-container .collection ul li .collection-item__content .collection-item-description {
+	transform: translateY(105%);
+	top: auto;
+	bottom: 50%;
+	left: auto;
+	right: 20px;
+}
+
+.homepage main .wrap .projects-container .collection ul {
+	position: relative;
+}
+
+.homepage main .wrap .projects-container .collection ul li {
+	position: absolute;
+}
+
+.homepage main .wrap .projects-container .collection ul li:first-child, .two_is_visible .wrap .projects-container .collection ul li:nth-child(2), .three_is_visible .wrap .projects-container .collection ul li:nth-child(3), .four_is_visible .wrap .projects-container .collection ul li:nth-child(4) {
+	opacity: 1;
+	transition: 1s opacity ease;
+}
+
+.homepage main .wrap .projects-container .collection ul li, .homepage.two_is_visible .wrap .projects-container .collection ul li:first-child, .homepage.three_is_visible .wrap .projects-container .collection ul li:first-child, .homepage.four_is_visible .wrap .projects-container .collection ul li:first-child {
+	opacity: 0;
+	display: block;
+	transition: 1s opacity ease;
+}
