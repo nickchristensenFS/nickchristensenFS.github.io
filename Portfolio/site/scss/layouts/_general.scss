@@ -42,3 +42,16 @@
 		}
 	}
 }
+
+/*==Project transition==*/
+
+.homepage main .wrap .projects-container .collection ul li:first-child, .two_is_visible .wrap .projects-container .collection ul li:nth-child(2), .three_is_visible .wrap .projects-container .collection ul li:nth-child(3), .four_is_visible .wrap .projects-container .collection ul li:nth-child(4) {
+	opacity: 1;
+	transition: 1s opacity ease;
+}
+
+.homepage main .wrap .projects-container .collection ul li, .homepage.two_is_visible .wrap .projects-container .collection ul li:first-child, .homepage.three_is_visible .wrap .projects-container .collection ul li:first-child, .homepage.four_is_visible .wrap .projects-container .collection ul li:first-child {
+	opacity: 0;
+	display: block;
+	transition: 1s opacity ease;
+}
