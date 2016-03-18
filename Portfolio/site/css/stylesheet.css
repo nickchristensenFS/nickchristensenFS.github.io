@@ -153,17 +153,25 @@ nav.mobile ul ul ul li:hover > a { background: #999; color: #fff; }
 
 /* =============================================================================
 	General
-============================================================================= */
+	============================================================================= */
 .one_is_visible .projects-container li:nth-child(n+2) { display: none; }
+.one_is_visible .nav-container li:nth-child(1) { display: block; width: 200px !important; }
+.one_is_visible .nav-container li:nth-child(1):before { content: 'Project #1'; color: #000; font-weight: bold; text-transform: uppercase; position: relative; top: 4px; left: 4px; }
 
 .two_is_visible .projects-container li:nth-child(n+1) { display: none; }
 .two_is_visible .projects-container li:nth-child(2) { display: block; }
+.two_is_visible .nav-container li:nth-child(2) { display: block; width: 200px !important; }
+.two_is_visible .nav-container li:nth-child(2):before { content: 'Project #2'; color: #000; font-weight: bold; text-transform: uppercase; position: relative; top: 4px; left: 4px; }
 
 .three_is_visible .projects-container li:nth-child(n+1) { display: none; }
 .three_is_visible .projects-container li:nth-child(3) { display: block; }
+.three_is_visible .nav-container li:nth-child(3) { display: block; width: 200px !important; }
+.three_is_visible .nav-container li:nth-child(3):before { content: 'Project #3'; color: #000; font-weight: bold; text-transform: uppercase; position: relative; top: 4px; left: 4px; }
 
 .four_is_visible .projects-container li:nth-child(n+1) { display: none; }
 .four_is_visible .projects-container li:nth-child(4) { display: block; }
+.four_is_visible .nav-container li:nth-child(4) { display: block; width: 200px !important; }
+.four_is_visible .nav-container li:nth-child(4):before { content: 'Project #4'; color: #000; font-weight: bold; text-transform: uppercase; position: relative; top: 4px; left: 4px; }
 
 /*==Project transition==*/
 .homepage main .wrap .projects-container .collection ul li:first-child, .two_is_visible .wrap .projects-container .collection ul li:nth-child(2), .three_is_visible .wrap .projects-container .collection ul li:nth-child(3), .four_is_visible .wrap .projects-container .collection ul li:nth-child(4) { opacity: 1; -webkit-transition: 1s opacity ease; transition: 1s opacity ease; }
@@ -174,26 +182,31 @@ nav.mobile ul ul ul li:hover > a { background: #999; color: #fff; }
 Homepage
 ============================================================================= */
 .homepage { overflow: hidden; }
-.homepage main .wrap { max-width: 100vw; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+.homepage main .wrap { max-width: 100vw; height: 100vh; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 .homepage main .wrap .nav-container { background: #000; position: relative; -webkit-transition: .5s background ease; transition: .5s background ease; width: 250px; height: 100vh; padding: 50px 0; }
 .homepage main .wrap .nav-container .nav-logo { background: url(../graphics/logoW.png) no-repeat; width: 150px; height: 42px; background-size: contain; margin: 0 auto; }
 .homepage main .wrap .nav-container .nav-logo img { display: none; }
-.homepage main .wrap .nav-container nav.sidenav { position: absolute; left: 0; right: 0; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
-.homepage main .wrap .nav-container nav.sidenav ul { list-style-type: none; padding: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
-.homepage main .wrap .nav-container nav.sidenav ul li { -webkit-box-flex: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; height: 15px; width: 15px; margin: 20px 0; border-radius: 0; background: #fff; -webkit-transition: .5s border-radius ease; transition: .5s border-radius ease; }
-.homepage main .wrap .nav-container nav.sidenav ul li:hover { background: #fff; cursor: pointer; -webkit-transition: .5s border-radius ease; transition: .5s border-radius ease; border-radius: 100px; }
+.homepage main .wrap .nav-container nav.sidenav { position: absolute; right: 0; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+.homepage main .wrap .nav-container nav.sidenav ul { list-style-type: none; padding: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: end; -webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end; }
+.homepage main .wrap .nav-container nav.sidenav ul li { -webkit-box-flex: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; height: 30px; width: 100px; margin: 20px 0; border-radius: 0; background: #fff; -webkit-transition: .5s width ease; transition: .5s width ease; }
+.homepage main .wrap .nav-container nav.sidenav ul li:hover { width: 200px; -webkit-transition: .5s width ease; transition: .5s width ease; cursor: pointer; }
+.homepage main .wrap .nav-container nav.sidenav ul li:hover:before { color: #000; font-weight: bold; text-transform: uppercase; position: relative; top: 4px; left: 4px; }
 .homepage main .wrap .nav-container nav.sidenav ul li:last-child { margin-bottom: 0px; }
-.homepage main .wrap .projects-container { background: rgba(70, 70, 70, 0.9); width: 100vw; height: 100vh; }
+.homepage main .wrap .nav-container nav.sidenav ul li:nth-child(1):hover:before { content: 'Project #1'; }
+.homepage main .wrap .nav-container nav.sidenav ul li:nth-child(2):hover:before { content: 'Project #2'; }
+.homepage main .wrap .nav-container nav.sidenav ul li:nth-child(3):hover:before { content: 'Project #3'; }
+.homepage main .wrap .nav-container nav.sidenav ul li:nth-child(4):hover:before { content: 'Project #4'; }
+.homepage main .wrap .projects-container { width: 100%; height: 100%; }
 .homepage main .wrap .projects-container .collection { height: 100%; }
 .homepage main .wrap .projects-container .collection ul { height: 100%; list-style-type: none; padding: 0; margin: 0; position: relative; }
 .homepage main .wrap .projects-container .collection ul li { width: 100%; height: 100%; position: absolute; }
 .homepage main .wrap .projects-container .collection ul li .collection-item__content { height: 100%; }
 .homepage main .wrap .projects-container .collection ul li .collection-item__content .collection-item-image.image { height: 100%; }
 .homepage main .wrap .projects-container .collection ul li .collection-item__content .collection-item-image.image img { display: none; }
-.homepage main .wrap .projects-container .collection ul li .collection-item__content .collection-item-label { position: absolute; font-size: 45px; color: #fff; background: rgba(0, 0, 0, 0.8); padding: 20px 40px; border-radius: 10px; top: auto; bottom: 50%; left: auto; right: 20px; }
+.homepage main .wrap .projects-container .collection ul li .collection-item__content .collection-item-label { position: absolute; font-size: 45px; color: #fff; background: #000; padding: 20px 40px; top: auto; bottom: 50%; left: auto; right: 20px; }
 .homepage main .wrap .projects-container .collection ul li .collection-item__content .collection-item-label a { color: #fff; }
 .homepage main .wrap .projects-container .collection ul li .collection-item__content .collection-item-label:hover { cursor: pointer; }
-.homepage main .wrap .projects-container .collection ul li .collection-item__content .collection-item-description { position: absolute; padding: 20px 40px; background: rgba(181, 180, 180, 0.8); border-radius: 10px; color: #000; max-width: 400px; -webkit-transform: translateY(105%); transform: translateY(105%); top: auto; bottom: 50%; left: auto; right: 20px; }
+.homepage main .wrap .projects-container .collection ul li .collection-item__content .collection-item-description { position: absolute; padding: 20px 40px; border: 2px solid #000; color: #000; max-width: 400px; -webkit-transform: translateY(105%); transform: translateY(105%); top: auto; bottom: 50%; left: auto; right: 20px; }
 
 /* =============================================================================
 	Internal
